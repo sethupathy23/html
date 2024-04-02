@@ -1,0 +1,145 @@
+/* html{
+    scroll-behavior: smooth;
+}
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.example{
+    margin-top:16px ;
+    padding-left: 20px;
+    border:2px solid black;
+
+}
+.example img{
+width:25%;
+height:auto;
+} */
+/* }
+section{
+    height:200vh;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+header, footer{
+    color:whitesmoke;
+    font-size: 32px;
+    text-align: center;
+    padding:10px;
+}
+header{
+    position: sticky;
+    top:0;
+}
+footer{
+    position: sticky;
+    bottom: 0;
+    font-size: 48px;
+    background-color: black;
+    color:antiquewhite
+    
+}
+a{
+    color:aliceblue;
+}
+button{
+    background-color: blueviolet;
+    padding:10px;
+    position:fixed;
+    top:30%;
+    left:0;
+    z-index:1;
+
+} */
+/* 
+body{
+    background-color: violet;
+}
+
+@media screen and (max-width:576px) {
+    body{
+        background-color: blue;
+    }
+} */
+
+/* RESET */
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    max-width:100%;
+    height:auto;
+    border-radius: 15px;
+}
+
+/* UTILIT
+ CLASSES */
+.nowrap{
+    white-space: nowrap;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    min-height:100vh;
+    background-image: radial-gradient(rgb(239, 121, 121),gray);
+display: flex;
+flex-direction: column;
+}
+header,footer{
+    position: sticky;
+    background-color: red;
+    color:aliceblue;
+    text-align: center;
+}
+header{
+ top:0;
+    border-bottom: 2px solid black;
+}
+footer{
+    bottom:0;
+}
+nav{
+    background-color: #fff;
+    padding:8px;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+nav a,
+nav a:visited{
+    color: #000;
+}
+
+nav a:hover, nav a:focus{
+   color: hsla(0, 0%,20%, 0.6)
+}
+main{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:22px;
+    padding:16px;
+}
+.card{
+    scroll-margin-top: 8rem;
+    width:min(100%, 450px);
+    background-color: #cbd5e1; 
+    border-radius: 15px;
+}

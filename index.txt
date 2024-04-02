@@ -1,0 +1,307 @@
+em>
+emphasis tag konjam itlaic style la text change agum.
+<strong>sethu</strong> knjam bold ah text theriyum.'
+------------------
+html entites:
+&nbsp; oru space create pandrathukaga use pandrom.
+&lt;&lt;&lt;&lt;&lt;&lt;&copy;sethu &gt;&gt;&gt;&gt;&gt;&gt;
+-----------------
+<p>Iam learn <abbr title="Mozilla Developer Network">MDN</abbr></p>
+------------
+ <h3>this is subscriber</h3>
+    <p>
+      <em>
+        Lorem ipsum dolor sit amet
+        <strong
+          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sethu</strong
+        ></em
+      >
+      consectetur adipisicing elit. Maiores, vero. <br />Sethu
+    </p>
+    <strong>sethu</strong>
+    <hr />
+    &lt;&lt;&lt;&lt;&lt;&lt;&copy;sethu &gt;&gt;&gt;&gt;&gt;&gt;
+    <!-- <h2>This is h1</h2> -->
+    <p>Iam learn <abbr title="Mozilla Developer Network">MDN</abbr></p>
+    <h3>Chapter 4</h3>
+    <ol>
+      <li>Sethupathy</li>
+      <li>Premkumar</li>
+      <li>Praveen kumar</li>
+      <li>Venkatesh</li>
+    </ol>
+    <ul>
+      <li>Sethupathy</li>
+      <li>Premkumar</li>
+      <li>Praveen kumar</li>
+      <li>Venkatesh</li>
+    </ul>
+    <dl>
+      <dt>Home</dt>
+      <dd>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+        tempora?
+      </dd>
+      <dt>About</dt>
+      <dd>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti
+        impedit obcaecati natus!
+      </dd>
+      <dt>contact</dt>
+      <dd>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ea et
+        veritatis doloribus exercitationem neque!
+      </dd>
+    </dl>
+    <a href="https://www.youtube.com/">click to google</a>
+    <abbr title="Mozilla developer network"
+      ><a href="https://developer.mozilla.org/en-US/" target="_blank"
+        >MDN</a
+      ></abbr
+    >
+    <a href="aboutme.html">About Me</a>
+   --------------------------
+   navigation epdi page kullaye poguthu nu pakka porom:-
+   internal page kulla epdi poganuna athuku thevai section tag.
+   <nav>
+      <ul>
+        <li><a href="#ch3">Chapter 3</a></li>
+        <li><a href="#ch4">Chapter 4</a></li>
+        <li><a href="#ch5">Chapter 5</a></li>
+      </ul>
+    </nav>
+    <hr />
+    <p>This is p</p>
+    <h2>this is chapter 3</h2>
+    <p>press the like button</p>
+    <hr />
+
+    <hr />
+    <section id="ch3">
+      <h2>Chapter 3</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia unde
+        ducimus, quae nihil reiciendis molestias id eius aliquid amet quisquam
+        numquam saepe error blanditiis autem.1000lines...
+      </p>
+    </section>
+    <hr />
+    <section id="ch4">
+      <h2>Chapter 4</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
+        architecto tempore cumque, eum labore tenetur quisquam ea, officiis fuga
+        expedita maxime.1000lines...
+      </p>
+    </section>
+    <hr />
+    <section id="ch5">
+      <h2>Chapter 5</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit
+        dignissimos iure quo tempore praesentium velit nemo illum laborum quia
+        suscipit voluptatum odio sapiente ducimus dolor magni, nisi,
+        perspiciatis, commodi mollitia ut totam qui fuga maxime quidem?
+        Laboriosam at vel officiis animi molestias dolorem quasi itaque, unde
+        expedita aut ut eos optio impedit maxime nihil eius iure nemo magnam?
+        Molestiae asperiores atque quidem 1000lines...
+      </p>
+    </section>
+    <hr />
+    <p>
+      <a href="#">Back to Top</a>
+    </p>
+    -----------------
+    semmantic tags:-
+    html semmantic cheat sheet nu google la refer pannalam
+    <aside>
+      <details>
+        <summary>Guess the number of hours I code per day</summary>
+        <p>
+          I start at <time datetime="08.00">8am</time> and I write code for
+          <time datetime="PT3H">3 hours</time> every morning
+        </p>
+      </details>
+    </aside>
+    ---------------------------
+    table:-
+    <table>
+      <thead>
+        <th>&nbsp;</th>
+        <th>Time</th>
+        <th>Activity</th>
+      </thead>
+      <tr>
+        <th>Morning</th>
+        <td>
+          <time datetime="08.00">08:00am</time> -
+          <time datetime="11.00">11.00am</time>
+        </td>
+        <td>Write code</td>
+      </tr>
+      <tr>
+        <th>Break</th>
+        <td>
+          <time datetime="11.00">11.00am</time> -
+          <time datetime="12.00">12.00pm</time>
+        </td>
+        <td>Lunch Break</td>
+      </tr>
+      <tr>
+        <th>Afternoon</th>
+        <td>
+          <time datetime="12.00">11.00am</time> -
+          <time datetime="18.00">06.00pm</time>
+        </td>
+        <td>Study Time1</td>
+      </tr>
+      <tr>
+        <th>Evening</th>
+        <td rowspan="2">All other Time</td>
+        <td>Free Time</td>
+      </tr>
+      <tr>
+        <th>Night</th>
+        <td>Sleep</td>
+      </tr>
+      <tfoot>
+        <tr>
+          <td colspan="1">Eat, Sleep, Code Everyday</td>
+        </tr>
+      </tfoot>
+    </table>
+    ----------------------
+    Form:-
+
+    <form>
+     <fieldset>
+    <legend>Do you agree to the terms?</legend>
+    <label><input type="radio" name="radio" value="yes" /> Yes</label>
+    <label><input type="radio" name="radio" value="no" /> No</label>
+  </fieldset>
+</form>
+-------------------------
+css topic:
+index.html=>
+ <nav>
+      <ul>
+        <li><a href="">Appetizers</a></li>
+        <li><a href="">Entrees</a></li>
+        <li><a href="">Desserts</a></li>
+        <li><a href="">Beverages</a></li>
+        <li><a href="">About</a></li>
+      </ul>
+    </nav>
+
+    style.css=>
+    
+body{
+    font-size: 20px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    list-style-type: none;
+    text-align: right;
+    /* padding:15px; */
+ 
+}
+li{
+    display: inline-block;
+    padding:15px;
+}
+li a:hover{
+    text-decoration: underline;
+}
+li a{
+    text-decoration: none;
+}
+--------------------------------
+position property:
+index.html=>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sethupathy</title>
+    <link rel="icon" href="html.jpg" type="image" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button class="sethu">sethu</button>
+    <section id="one">
+      <header class="blue">Earn Money</header>
+      <h2>One</h2>
+    </section>
+    <section id="two">
+      <header class="red">Grow Money</header>
+      <h2>Two</h2>
+    </section>
+    <section id="three">
+      <header class="green">Give Money</header>
+      <h2>Three</h2>
+    </section>
+    <footer>
+      <a href="#one">One</a>
+      <a href="#two">Two</a>
+      <a href="#three">Three</a>
+    </footer>
+  </body>
+</html>
+
+style.css=>
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+section{
+    height:200vh;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+header, footer{
+    color:whitesmoke;
+    font-size: 32px;
+    text-align: center;
+    padding:10px;
+}
+header{
+    position: sticky;
+    top:0;
+}
+footer{
+    position: sticky;
+    bottom: 0;
+    font-size: 48px;
+    background-color: black;
+    color:antiquewhite
+    
+}
+a{
+    color:aliceblue;
+}
+button{
+    background-color: blueviolet;
+    padding:10px;
+    position:fixed;
+    top:30%;
+    left:0;
+    z-index:1;
+
+}
+------------------------------------------
